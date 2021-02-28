@@ -93,6 +93,10 @@ header a {
 .hero-decor h2 {
     justify-content: center;
 }
+#page-info {
+    background: rgb(255,255,255);
+    background: linear-gradient(162deg, rgba(255,255,255,1) 0%, rgba(193,193,193,1) 100%);
+}
 
 #about-me {
     display: flex;
@@ -107,7 +111,7 @@ header a {
 #about-me div p{
     display: flex;
     align-items: center;
-    margin: 60px;
+    margin: 10px;
 }
 
 #about-me div img {
@@ -117,17 +121,23 @@ header a {
     border: 3px solid black;
 }
 .sidebar-title {
-    display: flex;
+    display: inline-block;
+    justify-content: flex-end;
     padding: 40px;
     font-size: 30px;
-    width: 400px;
-    flex-direction: row-reverse;
+    width: 30vw;
+    
     border-right: 2px solid;
-    border-color: var(--gradient);
+    color: var(--red-accent)
 }
 
+.sidebar-title h3 {
+    display: flex;
+    width: 400px;
+    justify-content: right;
+}
 /* .sidebar-title h3 {
-    justify-content: flex-end;
+    justify-content: right;
 } */
 
 #work {
@@ -142,13 +152,14 @@ header a {
 .feature-style {
     height: 25vw;
     width: auto;
+    border-radius: 15px;
 }
 #work {
     display: flex;
-    
+    justify-content: center;
 }
 .work-projects {
-    display: block;
+    /* display: block; */
     margin: 20px auto;
     justify-content: center;
 }
@@ -159,10 +170,12 @@ header a {
 }
 
 .left-column img, .right-column img {
-    height: 9vw;
-    width: 30vw;
-    padding: 10px;
+    display: inline-block;
+    height: 11vw;
+    width: 33vw;
+    /* padding: 10px; */
     justify-content: center;
+    border-radius: 15px;
     
 }
 #contact {
@@ -175,5 +188,6 @@ header a {
     display: inline-block;
     padding: 5px;
     flex-wrap: wrap;
-    margin: 30px;
+    margin: 10px;
+    list-style: none;
 }
