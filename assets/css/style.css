@@ -1,0 +1,165 @@
+:root {
+    --light-bg: white;
+    --red-accent: #770500;
+    --blue-accent: #2500F0;
+    --dark-bg: #000133;
+    --color-lines: #310100;
+    --gradient: linear-gradient(90deg, rgba(37,0,240,1) 0%, rgba(49,1,0,1) 100%);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    color: var(--tertiary-color);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+  padding: 10px 20px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* position: sticky;
+  position: -webkit-sticky; */
+  top: 0;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  background-position: 80%;
+  z-index: 9999;
+}
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--light-bg);
+    text-shadow: 0 0 10px rgba(37,0,240, 2);
+}
+header nav ul {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+list-style: none;
+padding: 30px 20px;
+font-size: 25px;
+}
+
+header nav ul li a {
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--light-bg);
+}
+
+.name-box {
+    background-color: var(--color-lines);
+    border-radius: 15px;
+    padding: 20px;
+    padding-left: 50px;
+    justify-content: right;
+}
+
+.hero-decor {
+    background-image: url('../images/herolightbulb.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: relative;
+    background-position: 80%;
+}
+
+.hero-decor div {
+    display: flex;
+    flex-direction: row-reverse;
+    color: var(--light-bg);
+    width: 100%;
+    height: 300px;
+    align-items: flex-end;
+}
+
+.hero-decor h2 {
+    justify-content: center;
+}
+
+#about-me {
+    display: flex;
+    align-items: center;
+    
+}
+#about-me div p{
+    align-items: center;
+}
+.sidebar-title {
+    display: flex;
+    padding: 40px;
+    font-size: 30px;
+    width: 400px;
+    flex-direction: row-reverse;
+    border-right: 2px solid;
+    border-color: var(--gradient);
+}
+
+/* .sidebar-title h3 {
+    justify-content: flex-end;
+} */
+
+#work {
+    display: flex;
+    
+}
+.project-style {
+    height: 100px; 
+    width: 300px;
+    
+    
+}
+
+/* img {
+    border-radius: 8px;
+} */
+
+.feature-style {
+    height: 25vw;
+    width: auto;
+}
+#work {
+    display: flex;
+    
+}
+.work-projects {
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+}
+.other-projects {
+    display: inline;
+    width: 400px;
+    
+}
+
+
+.left-column img, .right-column img {
+    height: 9vw;
+    width: 30vw;
+    padding: 10px;
+    justify-content: center;
+    
+}
+#contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact-links ul li {
+    display: inline-block;
+    padding: 20px;
+    flex-wrap: wrap;
+}
