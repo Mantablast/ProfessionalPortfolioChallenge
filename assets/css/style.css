@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  padding: 10px 20px;
+  padding: 10px 10px 10px 0px;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -58,11 +58,15 @@ header a {
 }
 
 .name-box {
+    display: flex;
     background-color: var(--color-lines);
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     padding-left: 50px;
     justify-content: right;
+    align-items: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
 
 .hero-decor {
