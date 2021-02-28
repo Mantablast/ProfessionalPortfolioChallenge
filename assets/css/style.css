@@ -17,6 +17,7 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
 }
+
 header {
   padding: 10px 20px;
   background-color: black;
@@ -92,10 +93,24 @@ header a {
 #about-me {
     display: flex;
     align-items: center;
-    
+    padding-top: 30px;
+
+}
+.profile {
+    display: flex;
+    margin: 20px;
 }
 #about-me div p{
+    display: flex;
     align-items: center;
+    margin: 60px;
+}
+
+#about-me div img {
+    height: 25vw;
+    width: auto;
+    border-radius: 50%;
+    border: 3px solid black;
 }
 .sidebar-title {
     display: flex;
@@ -113,18 +128,12 @@ header a {
 
 #work {
     display: flex;
-    
+    padding-top: 20px;
 }
 .project-style {
     height: 100px; 
     width: 300px;
-    
-    
 }
-
-/* img {
-    border-radius: 8px;
-} */
 
 .feature-style {
     height: 25vw;
@@ -145,7 +154,6 @@ header a {
     
 }
 
-
 .left-column img, .right-column img {
     height: 9vw;
     width: 30vw;
@@ -156,10 +164,12 @@ header a {
 #contact {
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 
 .contact-links ul li {
     display: inline-block;
-    padding: 20px;
+    padding: 5px;
     flex-wrap: wrap;
+    margin: 30px;
 }
