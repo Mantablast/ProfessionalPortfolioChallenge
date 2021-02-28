@@ -256,8 +256,17 @@ header a {
     text-decoration: none;
     color: var(--dark-bg);
     font-weight: bold;
+    
 }
-
+@media screen and (max-width: 600px) {
+    .sidebar-title:last-child {
+      font-size: 20px;
+    }
+    .contact-links a {
+        justify-content: center;
+        padding: 10px;
+    }
+  } 
 
 /* @media screen and (max-width: 960px) {
     #about-me, #work, #contact {
