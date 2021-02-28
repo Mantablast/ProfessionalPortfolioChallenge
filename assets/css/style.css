@@ -101,7 +101,6 @@ header a {
 #about-me {
     display: flex;
     align-items: center;
-    padding-top: 30px;
 
 }
 .profile {
@@ -121,20 +120,20 @@ header a {
     border: 3px solid black;
 }
 .sidebar-title {
-    display: inline-block;
-    justify-content: flex-end;
-    padding: 40px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
     font-size: 30px;
     width: 30vw;
-    
     border-right: 2px solid;
-    color: var(--red-accent)
+    color: var(--red-accent)  
 }
 
 .sidebar-title h3 {
     display: flex;
     width: 400px;
-    justify-content: right;
+    flex-direction: row-reverse;
+    margin: 10px;
 }
 /* .sidebar-title h3 {
     justify-content: right;
@@ -153,6 +152,7 @@ header a {
     height: 25vw;
     width: auto;
     border-radius: 15px;
+    border: 4px solid var(--red-accent);
 }
 #work {
     display: flex;
@@ -172,11 +172,11 @@ header a {
 .left-column img, .right-column img {
     display: inline-block;
     height: 11vw;
-    width: 33vw;
+    width: 32.5vw;
     /* padding: 10px; */
     justify-content: center;
     border-radius: 15px;
-    
+    border: 4px solid var(--red-accent);
 }
 #contact {
     display: flex;
@@ -185,9 +185,13 @@ header a {
 }
 
 .contact-links ul li {
-    display: inline-block;
-    padding: 5px;
+    display: inline;
+    justify-content: space-evenly;
+    padding: 20px;
     flex-wrap: wrap;
     margin: 10px;
-    list-style: none;
+
+}
+.contact-links a {
+    text-decoration: none;
 }
