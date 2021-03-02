@@ -8,7 +8,7 @@ A website that offers an employee professional portfolio to display to potential
 * CSS
 
 ## Website Live Url
-
+https://missaimeejay.github.io/ProfessionalPortfolioChallenge/
 
 ## Contribution
 Made with ❤️ by Aimee Jesso
