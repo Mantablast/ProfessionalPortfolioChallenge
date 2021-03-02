@@ -19,5 +19,5 @@ Credits for Placeholders:
 -Lighthouse labs (contribution of API, may no longer be functional)
 
 ### ©️2021 Aimee Jesso
-![Screenshot](.assets/images/PortfolioWireFrame.png)
-![Screenshot](.assets/images/AimeePorfolioSS.png)
+![Screenshot](./assets/images/PortfolioWireframe.png)
+![Screenshot](./assets/images/AimeePorfolioSS.png)
