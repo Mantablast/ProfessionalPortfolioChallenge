@@ -1,4 +1,4 @@
-# Professional Porfolio Challenge
+# Professional Portfolio Challenge
 
 ## Purpose
 A website that offers an employee professional portfolio to display to potential employers.
